@@ -1,3 +1,35 @@
+/* Select all elements */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header, main, footer */
+header, main, footer {
+    min-width: 100%;
+}
+header, footer {
+    background-color: darkgray;
+}
+/* Display: inline-flex */
+header, .menu-list {
+    display: inline-flex;
+}
+header img {
+    width: 5em;
+}
+/* menu */
+.menu {
+    margin-left: auto;
+    align-self: center;
+}
+/* menu-list */
+.menu-list {
+    list-style: none;
+}
+.menu-list li {
+    padding: 0 5px;
+}
 table{
     border: 3px solid black;
     border-collapse: collapse;
@@ -8,6 +40,9 @@ th, td {
 }
 
 /* footer */
+footer{
+    height: 100px;
+}
 footer p {
     font-weight: bold;
 }
