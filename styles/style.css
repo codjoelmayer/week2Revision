@@ -8,3 +8,16 @@
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
+/* section */
+section {
+    background-color: rgba(97, 131, 109, 0.9);
+}
+/* list */
+ul, ol {
+    /* Move to the center */
+}
+/* Image */
+img {
+    width: 300px;
+}
+/* Table */
