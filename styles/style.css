@@ -19,5 +19,9 @@ ul, ol {
 /* Image */
 img {
     width: 300px;
+    /* Move to the center */
 }
 /* Table */
+table {
+    border: 3px solid black;
+}
